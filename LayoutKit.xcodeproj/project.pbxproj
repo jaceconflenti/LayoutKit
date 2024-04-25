@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039647672BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */; };
+		039647682BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */; };
+		039647692BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */; };
+		0396476A2BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */; };
+		0396476B2BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */; };
 		0B2D09231D872F75007E487C /* AlignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB76531D8725310065E02A /* AlignmentTests.swift */; };
 		0B2D09251D872F75007E487C /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB76551D8725310065E02A /* CollectionViewTests.swift */; };
 		0B2D09261D872F75007E487C /* DensityAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB76561D8725310065E02A /* DensityAssertions.swift */; };
@@ -364,6 +369,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0B193BB61D887BCF00FCA22D /* CollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 		0B193BB71D887BCF00FCA22D /* IndexSetExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexSetExtension.swift; sourceTree = "<group>"; };
 		0B2D09651D8734DB007E487C /* CircleImagePileLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImagePileLayout.swift; sourceTree = "<group>"; };
@@ -664,6 +670,7 @@
 		0BCB75531D871FC40065E02A = {
 			isa = PBXGroup;
 			children = (
+				039647662BDAD7860060E997 /* PrivacyInfo.xcprivacy */,
 				0B7B269E1D919A9200CD1956 /* LayoutKit.playground */,
 				0BCB75611D8720110065E02A /* LayoutKit */,
 				0BCB756C1D8720110065E02A /* LayoutKitTests */,
@@ -1245,6 +1252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039647672BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,6 +1267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039647682BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1273,6 +1282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039647692BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1287,6 +1297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396476A2BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,6 +1314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396476B2BDAD7860060E997 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2422,7 +2434,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -2489,7 +2501,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = NO;

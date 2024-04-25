@@ -1,19 +1,20 @@
 Pod::Spec.new do |spec|
   spec.name              = 'LayoutKitObjC'
-  spec.version           = '10.1.0'
+  spec.version           = '7.0.2'
   spec.license           = { :type => 'Apache License, Version 2.0' }
   spec.homepage          = 'http://layoutkit.org'
-  spec.authors           = 'LinkedIn'
+  spec.authors           = { "Jace Conflenti" => "jace@squareup.com" }
   spec.summary           = 'LayoutKit is a fast view layout library for iOS, macOS, and tvOS. Now with Objective-C support.'
-  spec.source            = { :git => 'https://github.com/linkedin/LayoutKit.git', :tag => spec.version }
+  spec.source            = { :git => 'https://github.com/jaceconflenti/LayoutKit.git', :tag => spec.version }
   spec.source_files      = 'Sources/**/*.{swift,h,m}'
+  spec.resource_bundles  = {'LayoutKit_privacy' => ['Sources/PrivacyInfo.xcprivacy']}
   spec.documentation_url = 'http://layoutkit.org'
 
-  spec.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '12.0'
   spec.ios.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'
   spec.ios.exclude_files     = 'Sources/AppKitSupport.swift'
 
-  spec.osx.deployment_target = '10.9'
+  spec.osx.deployment_target = '10.13'
   spec.osx.frameworks        = 'Foundation', 'CoreGraphics', 'AppKit'
   spec.osx.exclude_files     = [
     'Sources/Internal/CGFloatExtension.swift',
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
     'Sources/Views/**'
   ]
 
-  spec.tvos.deployment_target = '9.0'
+  spec.tvos.deployment_target = '12.0'
   spec.tvos.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'
   spec.tvos.exclude_files     = [
     'Sources/AppKitSupport.swift',
